@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+  background-color: #6166D1;
+}
+/*blue #110C6C */
+/*orange #F6AC46 */
+
+nav {
+  padding: 1rem 0 1rem 0;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 3px solid #F6AC46;
+  background: #110C6C;
+}
+
+.nav-link {
+  font-size: 1.15rem;
+  text-decoration: none;
+  color:#F6AC46;
+  padding-left: 2rem;
+}
+
+.register {
+  border: 3px solid #F6AC46;
+  margin: 10%;
+  padding: 5%;
+  color: #F6AC46;
+  background-color: #110C6C;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register h4 {
+  margin: .5rem;
+}
+
+.register input {
+  width: 15rem;
+  height: 1rem;
+  font-size: 1.15rem;
+  padding: 1rem;
+  margin: .5rem;
+  border-radius: 1rem;
+  background-color: white;
+  color: #110C6C;
+  border: 3px solid #F6AC46;
+  text-align: center;
+}
+
+.register button {
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 10rem;
+  font-size: 1.15rem;
+  border-radius: .75rem;
+  background-color: #F6AC46;
+}
+
+.login {
+  border: 3px solid #F6AC46;
+  margin: 10%;
+  padding: 5%;
+  color: #F6AC46;
+  background-color: #110C6C
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login h4 {
+  margin: .5rem;
+}
+
+.login input {
+  width: 15rem;
+  height: 1.25rem;
+  font-size: 1.15rem;
+  padding: 1rem;
+  margin: .5rem;
+  border-radius: 1rem;
+  background-color: white;
+  color: #110C6C;
+  border: 3px solid #F6AC46;
+  text-align: center;
+}
+
+.login button {
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 10rem;
+  font-size: 1.15rem;
+  border-radius: .75rem;
+  background-color: #F6AC46;
+}
