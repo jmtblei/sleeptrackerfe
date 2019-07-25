@@ -1,18 +1,20 @@
 import React from 'react';
 import SleepEntry from './SleepEntry';
-import { Link } from 'react-router-dom';
 
 const SleepEntryList = (props) => {
     const displayEntries = props.sleepstats.map(sleepstat => {
         return (
-            <div>
-                <Link to={`/sleep/${sleepstat.id}`} key={sleepstat.id} >
+            <div className="indiv-entries"onClick={() => {props.setActive(sleepstat.id)}} key={sleepstat.id}>
                     <SleepEntry sleepstat={sleepstat}/>
-                </Link>
-                <button></button>
+                    <button onClick={() => props.deleteEntry(sleepstat.id)}>Delete</button>
             </div>
         )
-    })
+    });
+    return (
+        <div className="entries">
+            {displayEntries}
+        </div>
+    )
 }
 
 export default SleepEntryList;

@@ -12,7 +12,7 @@ class HomePageView extends React.Component {
         return (
         <div>
            <HomePageNav loggedOut={this.props.loggedOut}/>
-           <Route exact path='/home' component={Landing}/>
+           <Route path='/home' component={Landing}/>
         </div>
         )
     }

@@ -12,8 +12,8 @@ class HomePageNav extends React.Component {
         return (
         <div>
             <nav>
-                <Link to="/login" onClick={this.props.loggedOut} className="nav-link">Logout</Link>
                 <Link to="/home" className="nav-link">Home</Link>
+                <Link to="/login" onClick={this.props.loggedOut} className="nav-link">Logout</Link>
             </nav>
         </div>
         )

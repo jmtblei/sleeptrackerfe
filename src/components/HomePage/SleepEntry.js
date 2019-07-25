@@ -2,13 +2,12 @@ import React from 'react';
 
 const SleepEntry = props => {
     return (
-        <div>
-            <h4>Date{/*taking in props for date*/}</h4>
-            <p>Time slept:{/*taking in props for bed time*/}</p>
-            <p>Mood at bed time:</p><span>{/*taking in props for tired rating at bedtime*/}</span>
-            <p>Mood when waking:</p><span>{/*taking in props for waking mood*/}</span>
-            <p>Mood throughout day:</p><span>{/*taking in props for average day mood*/}</span>
-        </div>
+            <div>
+                <h4>Date: {props.sleepstat.date}</h4>
+                <h5>Time slept:</h5>{props.sleepstat.timeSlept} hours
+                <h5>Mood at bed time:</h5>{props.sleepstat.sleepMood}
+                <h5>Mood when waking:</h5>{props.sleepstat.wakeMood}
+            </div>
     )
 }
 
