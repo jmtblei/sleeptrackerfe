@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 
-const URL = "https://sleeper-app.herokuapp.com";
+const URL = "https://sleeptrackerredeploy.herokuapp.com/";
 
 const Authenticate = App => Login =>
     class extends React.Component {
