@@ -6,7 +6,7 @@ import { Route, Switch } from 'react-router-dom';
 import {Line} from 'react-chartjs-2';
 import UpdateSleepEntry from './UpdateSleepEntry';
 
-const URL = "https://sleeptrackerredeploy.herokuapp.com/";
+const URL = "https://sleeptrackerredeploy.herokuapp.com";
 
 export class Landing extends React.Component {
   constructor() {
